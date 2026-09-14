@@ -1,2 +1,2 @@
-![](/projects/eldrow/assets/title.png)
-![](/assets/title.png)
+![](/assets/images/eldrowTitle.png)
+A small game I built in a few days around April 2026 to be a sort of "reverse Wordle". Instead of trying to guess a word, you're given a few letters and need to find a word that matches the given rules.
