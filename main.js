@@ -1,9 +1,13 @@
-import sheet from '/main.css' with { type: 'css' }
-document.adoptedStyleSheets = [sheet]
-
 import * as Eldrow from "/eldrow.js"
+import difficulties from '/assets/difficulties.json' with { type: 'json' }
 
-const word = "xxllx"
-const accuracy = [0, 0, 2, 2, 0]
+// const word = "sxxxx"
+// const accuracy = [2, 0, 0, 0, 0]
+
+// console.log(Eldrow.calculateDifficulty(word, accuracy))
+
+const data = Eldrow.generateWord(difficulties.Easy)
+const word = data[0]
+const accuracy = data[1]
 
 new Eldrow.Eldrow(word, accuracy)
