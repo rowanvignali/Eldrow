@@ -1,4 +1,4 @@
 ![](/assets/images/eldrowTitle.png)
 ## Eldrow
 A small game I built in a few days around April 2026 to be a sort of "reverse Wordle".<br><br>
-Instead of trying to guess a word, you're given a few letters and need to find a word that matches the given rules.
+Instead of trying to guess a word, you're given a few letters and need to find as many words as possible matching the given rules.
